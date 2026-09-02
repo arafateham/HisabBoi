@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- BOOK MAIN BODY (Clean White Outline / Frame) -->
+    <!-- Left Page Outer Frame -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 52,24 L 28,24 C 25.5,24 23.5,26 23.5,28.5 L 23.5,60 C 23.5,62 25,63 27.5,62.5 C 36,60.5 45,60.5 52,62.5 Z" />
+
+    <!-- Right Page Outer Frame -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 56,24 L 80,24 C 82.5,24 84.5,26 84.5,28.5 L 84.5,60 C 84.5,62 83,63 80.5,62.5 C 72,60.5 63,60.5 56,62.5 Z" />
+
+    <!-- Center Spine Line -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:pathData="M 54,23.5 L 54,62" />
+
+    <!-- Book Bottom Layered Spine Curves -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M 21.5,64.5 C 33,62 44.5,62.5 54,67 C 63.5,62.5 75,62 86.5,64.5" />
+
+    <!-- ================= LEFT PAGE: CALCULATOR & BANKNOTE ================= -->
+    <!-- Calculator Outer Box -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 31,28.5 L 45,28.5 C 46,28.5 46.5,29 46.5,30 L 46.5,43.5 C 46.5,44.5 46,45 45,45 L 31,45 C 30,45 29.5,44.5 29.5,43.5 L 29.5,30 C 29.5,29 30,28.5 31,28.5 Z" />
+
+    <!-- Calculator Screen -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 31.5,31 L 44.5,31 C 45,31 45.2,31.2 45.2,31.7 L 45.2,33.8 C 45.2,34.3 45,34.5 44.5,34.5 L 31.5,34.5 C 31,34.5 30.8,34.3 30.8,33.8 L 30.8,31.7 C 30.8,31.2 31,31 31.5,31 Z" />
+
+    <!-- Key Plus [+] -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M 34.5,37.5 L 34.5,40.5 M 33,39 L 36,39" />
+
+    <!-- Key Minus [-] -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M 40,39 L 43,39" />
+
+    <!-- Key Multiply [×] -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M 33.2,42.2 L 35.8,44.8 M 35.8,42.2 L 33.2,44.8" />
+
+    <!-- Key Equal [=] -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.1"
+        android:strokeLineCap="round"
+        android:pathData="M 40,42.5 L 43,42.5 M 40,44.5 L 43,44.5" />
+
+    <!-- Banknote Outer Frame -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 31,48.5 L 45,48.5 C 46,48.5 46.5,49 46.5,50 L 46.5,57 C 46.5,58 46,58.5 45,58.5 L 31,58.5 C 30,58.5 29.5,58 29.5,57 L 29.5,50 C 29.5,49 30,48.5 31,48.5 Z" />
+
+    <!-- Banknote Center Circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 38,53.5 m -2.2,0 a 2.2,2.2 0 1,0 4.4,0 a 2.2,2.2 0 1,0 -4.4,0" />
+
+    <!-- Banknote Corner Notches -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 31,50.2 m -0.8,0 a 0.8,0.8 0 1,0 1.6,0 a 0.8,0.8 0 1,0 -1.6,0 M 45,50.2 m -0.8,0 a 0.8,0.8 0 1,0 1.6,0 a 0.8,0.8 0 1,0 -1.6,0 M 31,56.8 m -0.8,0 a 0.8,0.8 0 1,0 1.6,0 a 0.8,0.8 0 1,0 -1.6,0 M 45,56.8 m -0.8,0 a 0.8,0.8 0 1,0 1.6,0 a 0.8,0.8 0 1,0 -1.6,0" />
+
+
+    <!-- ================= RIGHT PAGE: TAKA COIN & GROWTH CHART ================= -->
+    <!-- Taka Coin Circle Frame -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M 68,36 m -7.5,0 a 7.5,7.5 0 1,0 15,0 a 7.5,7.5 0 1,0 -15,0" />
+
+    <!-- Bangladeshi Taka Symbol (৳) inside Coin -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 65.5,33 C 66.2,32 68.8,32 69.8,33.5 C 70.5,34.8 69.5,36.2 68,36.8 L 68,40.2 M 66,37.8 L 70.2,37.8" />
+
+    <!-- Growth Chart Bars -->
+    <!-- Bar 1 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 60,55.5 L 62.5,55.5 L 62.5,59 L 60,59 Z" />
+
+    <!-- Bar 2 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 64,52.5 L 66.5,52.5 L 66.5,59 L 64,59 Z" />
+
+    <!-- Bar 3 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 68,49.5 L 70.5,49.5 L 70.5,59 L 68,59 Z" />
+
+    <!-- Bar 4 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 72,46 L 74.5,46 L 74.5,59 L 72,59 Z" />
+
+    <!-- Trend Arrow Line & Head -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 60.5,53.5 L 65,48.5 L 70,45.5 L 76.5,41.5" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 73.5,41 L 77.8,40.5 L 76.8,44.8 Z" />
+
+    <!-- ================= TYPOGRAPHY: HisabBoi ================= -->
+    <!-- Letter 'H' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 20.5,70.5 L 22.8,70.5 L 22.8,73.8 L 26.2,73.8 L 26.2,70.5 L 28.5,70.5 L 28.5,79.5 L 26.2,79.5 L 26.2,75.8 L 22.8,75.8 L 22.8,79.5 L 20.5,79.5 Z" />
+
+    <!-- Letter 'i' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 31.2,70.5 L 33.2,70.5 L 33.2,72.2 L 31.2,72.2 Z M 31.2,73.5 L 33.2,73.5 L 33.2,79.5 L 31.2,79.5 Z" />
+
+    <!-- Letter 's' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 35.5,78 C 36,79.2 37.2,79.7 38.6,79.7 C 40.2,79.7 41.2,78.8 41.2,77.6 C 41.2,76.2 40,75.6 38.5,75.2 C 37,74.8 35.8,74.3 35.8,73.2 C 35.8,72.2 36.8,71.5 38.3,71.5 C 39.6,71.5 40.6,72.1 41,73.2 L 39.3,73.8 C 39.1,73.2 38.6,72.9 38.2,72.9 C 37.5,72.9 37.1,73.2 37.1,73.6 C 37.1,74.1 37.7,74.4 38.8,74.7 C 40.5,75.2 41.8,75.8 41.8,77.5 C 41.8,79.1 40.4,80.1 38.6,80.1 C 36.8,80.1 35.2,79.2 34.6,77.5 Z" />
+
+    <!-- Letter 'a' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 46.8,73.5 L 46.8,79.5 L 45.2,79.5 L 45.2,78.4 C 44.6,79.3 43.6,79.9 42.4,79.9 C 40.8,79.9 39.8,78.8 39.8,77.2 C 39.8,75.3 41.2,74.4 44.8,74.3 L 44.8,74 C 44.8,73.2 44.2,72.8 43.2,72.8 C 42.4,72.8 41.8,73.1 41.5,73.8 L 40.2,73.2 C 40.7,72 41.8,71.4 43.4,71.4 C 45.5,71.4 46.8,72.3 46.8,73.5 Z M 44.8,75.7 C 42.8,75.8 41.8,76.3 41.8,77.3 C 41.8,78.1 42.4,78.6 43.3,78.6 C 44.3,78.6 44.8,77.8 44.8,76.9 Z" />
+
+    <!-- Letter 'b' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 48.8,70.5 L 50.8,70.5 L 50.8,73.5 C 51.5,72.2 52.8,71.4 54.4,71.4 C 56.8,71.4 58.4,73.2 58.4,75.8 C 58.4,78.4 56.7,80.1 54.3,80.1 C 52.8,80.1 51.6,79.3 50.8,78.1 L 50.8,79.5 L 48.8,79.5 Z M 53.5,73.3 C 52.2,73.3 51,74.3 51,75.8 C 51,77.3 52.2,78.3 53.5,78.3 C 55,78.3 56.2,77.2 56.2,75.8 C 56.2,74.3 55,73.3 53.5,73.3 Z" />
+
+    <!-- Letter 'B' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 61,70.5 L 65.2,70.5 C 66.8,70.5 67.8,71.3 67.8,72.6 C 67.8,73.6 67.1,74.3 66.1,74.6 C 67.4,74.9 68.2,75.8 68.2,77.2 C 68.2,78.7 67,79.5 65.1,79.5 L 61,79.5 Z M 63.2,72.3 L 63.2,74.2 L 64.9,74.2 C 65.7,74.2 66.1,73.7 66.1,73.2 C 66.1,72.7 65.7,72.3 64.9,72.3 Z M 63.2,75.8 L 63.2,77.8 L 65.1,77.8 C 66,77.8 66.5,77.3 66.5,76.8 C 66.5,76.2 66,75.8 65.1,75.8 Z" />
+
+    <!-- Letter 'o' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 74,71.4 C 76.5,71.4 78.2,73.2 78.2,75.8 C 78.2,78.4 76.5,80.1 74,80.1 C 71.5,80.1 69.8,78.4 69.8,75.8 C 69.8,73.2 71.5,71.4 74,71.4 Z M 74,73.3 C 72.7,73.3 71.8,74.4 71.8,75.8 C 71.8,77.2 72.7,78.3 74,78.3 C 75.3,78.3 76.2,77.2 76.2,75.8 C 76.2,74.4 75.3,73.3 74,73.3 Z" />
+
+    <!-- Letter 'i' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 80.5,70.5 L 82.5,70.5 L 82.5,72.2 L 80.5,72.2 Z M 80.5,73.5 L 82.5,73.5 L 82.5,79.5 L 80.5,79.5 Z" />
+
+    <!-- ================= BENGALI SUBTITLE: হিসাববই ================= -->
+    <!-- হ ি স া ব ব ই Styled Bengali glyph bar -->
+    <!-- Bengali 'হিসাববই' -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="
+            M 36,83.5 L 72,83.5
+            M 37.5,83.5 C 37.5,82.2 38.8,82 39.5,83.5 L 39.5,87
+            M 42,83.5 L 42,87 C 42,88 44.5,88 44.5,86.5 C 44.5,85 43,84.5 44,83.5
+            M 48,83.5 C 47,84.5 46.5,86 48.5,86.5 M 48.5,83.5 L 48.5,87
+            M 52,83.5 L 52,87
+            M 55,83.5 L 55,87 L 57.5,87 L 55,84.8
+            M 60,83.5 L 60,87 L 62.5,87 L 60,84.8
+            M 65.5,83.5 C 65.5,82.2 67,82 67.5,83.5 L 67.5,87 C 67.5,88 69.5,87.5 70,86
+        " />
+</vector>

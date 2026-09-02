@@ -1,0 +1,6 @@
+{
+  "name": "HisabBoi",
+  "description": "HisabBoi (হিসাববই) - Bengali-first personal finance tracker with offline-first Room database, income/expense management, loan tracking, budget goals, visual analytics, and PDF reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
